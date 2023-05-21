@@ -1,4 +1,4 @@
-import { Button, Heading } from '@/components'
+import { Button, Heading, Paragraph } from '@/components'
 
 export default function Home(): JSX.Element {
     return (
@@ -12,6 +12,13 @@ export default function Home(): JSX.Element {
             <Button appearance="ghost" arrow="right">
                 Boo ~ 👻
             </Button>
+            <Paragraph size="m">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus impedit perferendis vel hic illum
+                eveniet commodi tempore
+            </Paragraph>
+            <Paragraph size="l">
+                Fraesentium voluptatem dignissimos autem eum atque nihil, officiis officia quis aliquam sunt ullam!
+            </Paragraph>
         </div>
     )
 }
