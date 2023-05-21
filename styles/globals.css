@@ -1,11 +1,13 @@
 :root {
     --font-main: 'Rubik', sans-serif;
     --black-color: #3b434e;
+    --gray-color: #b3c0d9;
     --light-gray-color: #ebebeb;
     --white-color: #ffffff;
     --primary-color: #7653fc;
     --primary-active-color: #5d41cb;
-    --red-color: #fc836d;
+    --red-color: #de0000;
+    --light-red-color: #fc836d;
     --green-color: #1dc37e;
     --light-green-color: #c8f8e4;
 }

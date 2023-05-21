@@ -1,0 +1,77 @@
+.tag {
+    display: inline-block;
+    transition: box-shadow 0.2s;
+    border-radius: 20px;
+    background: none;
+    padding: 5px 10px;
+    height: fit-content;
+    color: var(--black-color);
+    font-weight: 500;
+    user-select: none;
+    text-decoration: none;
+}
+
+.tag > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* size */
+
+.l {
+    font-size: 1rem;
+}
+
+.m {
+    font-size: 0.875rem;
+}
+
+/* appearance */
+
+.primary {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.primary:hover {
+    box-shadow: 0px 0px 5px var(--primary-color);
+}
+
+.ghost {
+    border: 1px solid var(--light-gray-color);
+    color: var(--black-color);
+}
+
+.ghost:hover {
+    box-shadow: 0px 0px 5px var(--light-gray-color);
+}
+
+.red {
+    background: var(--red-color);
+    color: white;
+    font-weight: 600;
+}
+
+.red:hover {
+    box-shadow: 0px 0px 5px var(--red-color);
+}
+
+.gray {
+    background: var(--light-gray-color);
+    color: white;
+    font-weight: 600;
+}
+
+.gray:hover {
+    box-shadow: 0px 0px 5px var(--light-gray-color);
+}
+
+.green {
+    background: var(--light-green-color);
+    color: var(--green-color);
+    font-weight: 600;
+}
+
+.green:hover {
+    box-shadow: 0px 0px 5px var(--light-green-color);
+}
