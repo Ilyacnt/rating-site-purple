@@ -1,8 +1,12 @@
-import { Button, Heading, Paragraph, Tag } from '@/components'
+import { Button, Heading, Paragraph, Tag, Rating } from '@/components'
+import { useState } from 'react'
 
 export default function Home(): JSX.Element {
+    const [userRating, setUserRating] = useState<number>(3)
+
     return (
         <div>
+            <Rating rating={userRating} setRating={setUserRating} />
             <Heading tag="h1">Some shit</Heading>
             <Heading tag="h2">Some h2 shit</Heading>
             <Heading tag="h3">Some h3 shit</Heading>
@@ -25,8 +29,8 @@ export default function Home(): JSX.Element {
                 </Tag>
                 <Tag appearance="gray">Gray</Tag>
                 <Tag appearance="green">Green</Tag>
-                <Tag appearance="primary" href="/favicon.ico" size="s">
-                    Праймери
+                <Tag appearance="primary" size="s">
+                    Score
                 </Tag>
                 <Tag appearance="red">Red</Tag>
             </div>
