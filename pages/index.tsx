@@ -6,7 +6,7 @@ export default function Home(): JSX.Element {
 
     return (
         <div>
-            <Rating rating={userRating} setRating={setUserRating} />
+            <Rating rating={userRating} setRating={setUserRating} isEditable />
             <Heading tag="h1">Some shit</Heading>
             <Heading tag="h2">Some h2 shit</Heading>
             <Heading tag="h3">Some h3 shit</Heading>
