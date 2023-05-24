@@ -17,7 +17,7 @@ export const Rating = ({ isEditable = false, rating, setRating, className, ...at
         setRating && setRating(ratingValue)
     }
 
-    const handleSpace = (event: KeyboardEvent<SVGAElement>, ratingValue: number) => {
+    const handleSpace = (event: KeyboardEvent<SVGElement>, ratingValue: number) => {
         if (!isEditable || event.code !== 'Space') return
         setRating && setRating(ratingValue)
     }
