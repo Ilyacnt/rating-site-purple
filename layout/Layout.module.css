@@ -6,6 +6,7 @@
         '. header header .'
         '. sidebar main .'
         'footer footer footer footer';
+    gap: 0 1rem;
     border: 2px solid rgb(255, 0, 0);
     min-height: 100vh;
 }
