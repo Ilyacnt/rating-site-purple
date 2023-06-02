@@ -10,9 +10,6 @@ function Home({ menu, firstCategory }: HomeProps): JSX.Element {
 
     return (
         <>
-            {menu.map((el) => (
-                <div>{el._id.secondCategory}</div>
-            ))}
             <Rating rating={userRating} setRating={setUserRating} isEditable />
             <Heading tag="h1">Some shit</Heading>
             <Heading tag="h2">Some h2 shit</Heading>
